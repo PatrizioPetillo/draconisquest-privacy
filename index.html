@@ -26,7 +26,7 @@
 <body>
 <main>
   <h1>Privacy Policy — DraconisQuest</h1>
-  <p class="muted">Ultimo aggiornamento: 19 giugno 2026</p>
+  <p class="muted">Ultimo aggiornamento: 09 Agosto 2026</p>
 
   <p>Questa informativa descrive come l'applicazione <strong>DraconisQuest</strong>, sviluppata da
   <strong>DomusDraconis</strong> (di Petillo Patrizio), tratta i dati delle persone che la utilizzano.
@@ -44,31 +44,59 @@
   <ul>
     <li><strong>Dati salvati sul dispositivo</strong> — personaggi, partite, progressi, preferenze. Restano in locale
     (memoria dell'App) e non vengono trasmessi a noi né a server di nostra proprietà.</li>
-    <li><strong>Dati relativi agli acquisti</strong> — se effettui un acquisto in-app o sottoscrivi un abbonamento, la
+    <li><strong>Immagini per il ritratto del personaggio (avatar)</strong> — se scegli di associare un'immagine a un
+    personaggio, l'App accede alla fotocamera e alle immagini del tuo dispositivo. Le immagini restano archiviate
+    <strong>esclusivamente in locale</strong>, sul tuo telefono, e non lasciano il dispositivo (vedi la sezione dedicata più sotto).</li>
+    <li><strong>Dati relativi agli acquisti</strong> — se sottoscrivi un abbonamento in-app, la
     gestione avviene tramite <strong>RevenueCat</strong> e tramite lo store (Google Play / Apple App Store). Questi
     servizi trattano identificatori del dispositivo e dati della transazione per validare l'acquisto e ripristinarlo.</li>
     <li><strong>Contenuti di gioco inviati all'IA</strong> — quando interagisci con il Narratore, i testi che scrivi
     (le tue azioni di gioco) vengono trasmessi, tramite un nostro server intermedio (Cloudflare Workers), al servizio
     di intelligenza artificiale <strong>Google Gemini</strong>, che genera la risposta narrativa. Questi contenuti non
     sono associati a un tuo account (l'App non ne ha) ma transitano insieme al tuo indirizzo IP.</li>
-    <li><strong>Dati tecnici per gli aggiornamenti</strong> — l'App utilizza Expo / EAS Update per scaricare
-    aggiornamenti. In questo processo possono essere trattati dati tecnici di base (es. versione dell'App, piattaforma).</li>
+    <li><strong>Dati tecnici e indirizzo IP</strong> — come per qualsiasi applicazione connessa a internet, le
+    richieste di rete verso i nostri fornitori (server intermedio, servizio IA, sistema di aggiornamento) comportano
+    la trasmissione del tuo indirizzo IP e di dati tecnici di base (es. versione dell'App, piattaforma), necessari al
+    funzionamento e alla sicurezza del servizio.</li>
     <li><strong>Notifiche locali</strong> — i promemoria sono generati e pianificati interamente sul dispositivo:
     non inviamo notifiche da remoto e non raccogliamo alcun token o dato a questo scopo.</li>
+    <li><strong>Riconoscimento vocale</strong> — se utilizzi la funzione di trascrizione vocale, l'audio viene
+    elaborato dal servizio di riconoscimento vocale del tuo dispositivo (es. Google Speech Services). Non raccogliamo né trasmettiamo l'audio a noi o a terzi.</li>
   </ul>
   <p class="nota">Non raccogliamo nome, email, posizione, rubrica, né dati di profilazione. Non utilizziamo strumenti
   di analytics o tracciamento (es. Firebase Analytics, Sentry, Amplitude) e non mostriamo annunci pubblicitari.</p>
 
-  <h2>3. Finalità e basi giuridiche (GDPR)</h2>
+  <p class="nota">Il nostro server intermedio (Cloudflare Workers) si limita a <strong>inoltrare</strong> le tue
+  richieste al servizio IA per consegnarti la risposta: <strong>non conserva i contenuti dei tuoi messaggi</strong> né
+  li registra sui nostri sistemi. I contenuti transitano soltanto per essere elaborati da Google Gemini, che li tratta
+  secondo la propria informativa.</p>
+
+  <h2>3. Immagini per il ritratto del personaggio (avatar)</h2>
+  <p>DraconisQuest ti consente di personalizzare i tuoi personaggi associando loro un'immagine scelta dalla galleria
+  del tuo dispositivo o scattata con la fotocamera. Per farlo, l'App richiede il tuo permesso di accedere alla
+  fotocamera e alle immagini del dispositivo. Questo accesso viene utilizzato esclusivamente per consentirti di
+  selezionare o acquisire un'immagine da associare al tuo personaggio.</p>
+  <p>Le immagini che scegli restano archiviate <strong>localmente sul tuo dispositivo</strong> e sono utilizzate solo
+  all'interno dell'App, sul tuo telefono. Non vengono caricate su alcun server, non vengono trasmesse a noi né a terze
+  parti, e non lasciano il tuo dispositivo. Rimuovendo l'immagine dal personaggio, o disinstallando l'App, l'immagine
+  associata viene eliminata dai dati locali dell'applicazione.</p>
+  <p>Puoi negare o revocare in qualsiasi momento il permesso di accesso a fotocamera e galleria dalle impostazioni del
+  tuo dispositivo; in tal caso non potrai associare immagini ai personaggi, ma potrai continuare a usare tutte le altre
+  funzioni dell'App.</p>
+
+  <h2>4. Finalità e basi giuridiche (GDPR)</h2>
   <ul>
     <li><strong>Far funzionare il gioco</strong> (generazione delle risposte del Narratore): esecuzione del servizio
     che richiedi — base giuridica: esecuzione di un contratto / fornitura del servizio (art. 6.1.b GDPR).</li>
-    <li><strong>Gestire acquisti e abbonamenti</strong>: esecuzione del contratto e adempimenti di legge.</li>
+    <li><strong>Associare un'immagine al personaggio</strong> (accesso a fotocamera/galleria): base giuridica:
+    <strong>consenso</strong> (art. 6.1.a GDPR), che presti concedendo il relativo permesso di sistema e che puoi
+    revocare in qualsiasi momento dalle impostazioni del dispositivo. Le immagini sono elaborate solo in locale.</li>
+    <li><strong>Gestire gli abbonamenti</strong>: esecuzione del contratto e adempimenti di legge.</li>
     <li><strong>Sicurezza e funzionamento tecnico</strong> (es. protezione del server intermedio da abusi, consegna
     degli aggiornamenti): legittimo interesse (art. 6.1.f GDPR).</li>
   </ul>
 
-  <h2>4. A chi vengono comunicati i dati</h2>
+  <h2>5. A chi vengono comunicati i dati</h2>
   <p>Non vendiamo i tuoi dati. Alcuni dati sono trattati da fornitori terzi esclusivamente per le finalità sopra
   indicate. Ciascuno tratta i dati secondo la propria informativa:</p>
   <ul>
@@ -79,39 +107,40 @@
     <li><strong>Apple App Store</strong> (se applicabile) — <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a></li>
   </ul>
 
-  <h2>5. Trasferimenti internazionali</h2>
+  <h2>6. Trasferimenti internazionali</h2>
   <p>Alcuni di questi fornitori possono trattare i dati su server situati al di fuori dell'Unione Europea (es. Stati
   Uniti). In tali casi il trasferimento avviene sulla base delle garanzie previste dal GDPR (es. clausole contrattuali
   standard) adottate dai rispettivi fornitori.</p>
 
-  <h2>6. Conservazione dei dati</h2>
+  <h2>7. Conservazione dei dati</h2>
   <ul>
-    <li>I dati di gioco restano sul tuo dispositivo finché non li elimini o disinstalli l'App.</li>
+    <li>I dati di gioco e le immagini dei personaggi restano sul tuo dispositivo finché non li elimini o disinstalli l'App.</li>
     <li>I dati di acquisto sono conservati da RevenueCat e dallo store per il tempo necessario alla gestione
-    dell'acquisto e agli obblighi di legge.</li>
-    <li>I contenuti inviati all'IA sono trattati per generare la risposta e gestiti secondo i termini di Google.</li>
+    dell'abbonamento e agli obblighi di legge.</li>
+    <li>I contenuti inviati all'IA sono trattati per generare la risposta e gestiti secondo i termini di Google; il
+    nostro server intermedio non li conserva.</li>
   </ul>
 
-  <h2>7. I tuoi diritti</h2>
+  <h2>8. I tuoi diritti</h2>
   <p>In base al GDPR hai diritto di accedere ai tuoi dati, chiederne la rettifica o la cancellazione, limitarne od
   opporti al trattamento, e proporre reclamo al Garante per la protezione dei dati personali.</p>
   <ul>
-    <li>Poiché i dati di gioco sono <strong>locali</strong>, puoi cancellarli in qualsiasi momento eliminando i dati
-    dell'App o disinstallandola.</li>
+    <li>Poiché i dati di gioco e le immagini dei personaggi sono <strong>locali</strong>, puoi cancellarli in qualsiasi
+    momento eliminando i dati dell'App o disinstallandola.</li>
     <li>Per i dati di acquisto puoi esercitare i tuoi diritti tramite lo store e RevenueCat.</li>
     <li>Per ogni altra richiesta scrivici a <strong>domusdraconis06@gmail.com</strong>.</li>
   </ul>
 
-  <h2>8. Minori</h2>
+  <h2>9. Minori</h2>
   <p>DraconisQuest contiene temi maturi e atmosfere horror e <strong>non è destinata a un pubblico di minori</strong>.
   L'App non è rivolta ai bambini e non raccoglie consapevolmente dati di minori. La fascia d'età è indicata nella
   classificazione dei contenuti dello store.</p>
 
-  <h2>9. Modifiche a questa informativa</h2>
+  <h2>10. Modifiche a questa informativa</h2>
   <p>Potremmo aggiornare questa informativa nel tempo. La versione aggiornata sarà sempre disponibile a questo
   indirizzo, con la data di "ultimo aggiornamento" in alto.</p>
 
-  <h2>10. Contatti</h2>
+  <h2>11. Contatti</h2>
   <p>Per qualsiasi domanda su questa informativa o sul trattamento dei tuoi dati: <strong>domusdraconis06@gmail.com</strong>.</p>
 
   <hr>
